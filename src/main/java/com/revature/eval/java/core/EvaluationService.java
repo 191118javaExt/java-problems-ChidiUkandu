@@ -16,8 +16,8 @@ public class EvaluationService {
 	public String reverse(String string) {
 		char[] inputStingArray = inputString.toCharArray();
 		String reverseString = "";
-		for (int i = inputStringArray.length -1; i>= 0; i--) {
-			reverseString += inputStringArray [i]; 
+		for (int i = inputStingArray.length -1; i>= 0; i--) {
+			reverseString += inputStingArray [i]; 
 		return "";
 	}
 
